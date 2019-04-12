@@ -1,0 +1,48 @@
+/* CSS files add styling rules to your content */
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  margin: 10px;
+}
+
+#map {
+  height: 450px;
+  width: 800px;
+  float: right
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  color: white; 
+  margin: 2em;
+  background-color: #1c1c1c;
+}
+
+h1 {
+  font-style: italic;
+  color: #da2222;
+  text-align: center;
+}
+
+h2 {
+  color: #f27d7d;
+  text-align: center;
+}
+
+h3 {
+  color: #5c5e60;
+  text-align: center;
+}
+  
+img {
+  align: middle;
+}
